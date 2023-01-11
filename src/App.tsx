@@ -16,7 +16,7 @@ function App() {
         ...selectedUsers.company,nameUser:selectedUsers.name,
         ...selectedUsers.address.geo,
       }
-    : { name: "carciacmento" };
+    : { name: "carciacmento in corso..." };
 
   const nextHandler = () => {
     if (indexUser < users.length - 1) {
