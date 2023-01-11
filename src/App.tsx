@@ -16,7 +16,7 @@ function App() {
         ...selectedUsers.company,nameUser:selectedUsers.name,
         ...selectedUsers.address.geo,
       }
-    : { name: "carciacmento in corso..." };
+    : { name: "carciacmento in corso..." ,username:'test git commit'};
 
   const nextHandler = () => {
     if (indexUser < users.length - 1) {
