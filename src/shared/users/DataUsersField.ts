@@ -59,8 +59,8 @@ export const DataUsersField = [
           ico: "location-arrow",
           field: "lng",
         },{
-          label: "Nome",
-          ico: "location-arrow",
+          label: "Nome Società",
+          ico: "user",
           field: "name",
         }
       ],
