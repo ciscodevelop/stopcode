@@ -1,0 +1,19 @@
+.separetor {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid green;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fa.padding-right {
+    padding-right: 5px;
+}
+
+.icon-title {
+    top: -18px;
+    position: absolute;
+    background-color: white;
+    padding: 2px;
+}
